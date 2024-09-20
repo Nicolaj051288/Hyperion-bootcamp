@@ -1,0 +1,10 @@
+#ask user to input their name
+#ask user to input their age
+#use print cmd to display the users input as below
+#My name is (name) I am (age) years old
+#print "Hello World!" 
+
+name = input("Please enter your name")
+age = input("Please enter your age")
+
+print("Hello World! My name is {} I am {} years old".format(name, age))
